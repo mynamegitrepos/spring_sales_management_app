@@ -1,6 +1,6 @@
 import icon from '../../assets/img/notification-icon.svg'
 import './styles.css'
-function NotifiationButton() {
+function NotificationButton() {
   return(
     <div className="red-btn">
       <img src={icon} alt="Notificar"/>
@@ -8,4 +8,4 @@ function NotifiationButton() {
   )
 }
 
-export default NotifiationButton
+export default NotificationButton

@@ -1,0 +1,91 @@
+.ds-card{
+  border-radius: 10px;
+  background: #283142;
+  padding: 30px;
+}
+.ds-sales-title{
+  color: #676fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.form-control-container{
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+.ds-card input[type=text]{
+   height: 46px;
+   width: 100%;
+   background-color: #242c3b;
+   border: 1px solid #5F6E82;
+   border-radius: 5px;
+   color: #CFCFCF;
+   padding: 0 20px;
+   font-size: 18px;
+}
+.dssales-table{
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.dssales-table thead{
+  height: 55px;
+  font-weight: bold;
+  color: #E9E9E9;
+  font-size: 16px;
+}
+.dssales-table tbody{
+  font-size: 14px;
+  font-weight: 400;
+  color: #CFCFCF;
+  text-align: center;
+}
+.dssales-table tbody tr{
+  height: 74px;
+  border-top: 1px solid #5F6E82;
+}
+.dssales-table tbody tr:hover > td{
+  background-color: #384459;
+}
+.dssales-table tbody tr:nth-child(odd){
+background-color: #242C3B;
+}
+.red-btn-container{
+  display: flex;
+  justify-content: center;
+}
+.red-btn{
+  height: 45px;
+  width: 45px;
+  background: rgba(255, 107, 114, 0.1);
+  border: 1px solid #FF6B72;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red-btn img{
+  width: 19px;
+}
+.mostrar576,
+.mostrar992{
+  display: none;
+}
+@media (min-width: 576px){
+  .mostrar576{
+    display: table-cell;
+  }
+  .ds-card{
+    padding: 35px;
+  }
+  .dssales-table tbody{
+    font-size: 18px;
+  }
+  .dssales-table tbody tr{
+    height: 55px;
+  }
+}
+@media (min-width: 992px){
+  .mostrar992{
+    display: table-cell;
+  }
+}
