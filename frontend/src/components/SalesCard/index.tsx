@@ -1,10 +1,8 @@
-
 import NotificationButton from '../NotificationButton'
 import './styles.css'
 
 function SalesCard(){
   return(
-    
         <div className="ds-card">
           <h2 className="ds-sales-title">Vendas</h2>
           <div>
@@ -29,6 +27,7 @@ function SalesCard(){
                   <th>Total</th>
                   <th>Notificar</th>
                 </tr>
+                </thead>
                 <tbody>
                   <tr>
                     <td className="mostrar992">#341</td>
@@ -85,9 +84,8 @@ function SalesCard(){
                       </div>
                     </td>
                   </tr>
-                  
+              
                 </tbody>
-              </thead>
             </table>
           </div>
 

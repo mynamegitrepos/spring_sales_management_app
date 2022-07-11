@@ -22,6 +22,9 @@
    padding: 0 20px;
    font-size: 18px;
 }
+
+/*Table*/
+
 .dssales-table{
   width: 100%;
   border-spacing: 0;
@@ -40,7 +43,7 @@
   text-align: center;
 }
 .dssales-table tbody tr{
-  height: 74px;
+  height: 174px;
   border-top: 1px solid #5F6E82;
 }
 .dssales-table tbody tr:hover > td{
@@ -53,19 +56,7 @@ background-color: #242C3B;
   display: flex;
   justify-content: center;
 }
-.red-btn{
-  height: 45px;
-  width: 45px;
-  background: rgba(255, 107, 114, 0.1);
-  border: 1px solid #FF6B72;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.red-btn img{
-  width: 19px;
-}
+
 .mostrar576,
 .mostrar992{
   display: none;
